@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">JewelryStore</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Our Exclusive Jewelry Collection</h1>
+            <p>Elegant and timeless pieces crafted for every occasion.</p>
+            <a href="#collection" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section  id="about" class="about" >
+        <img src="images/aboutimg.webp" alt="Jewelry Image">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing high-quality jewelry that combines modern designs with traditional craftsmanship. Each piece is meticulously crafted to ensure it meets our standards of excellence.</p>
+        </div>
+    </section>
+    <section id="collection" class="collection">
+        <h2>Our Collection</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="" target="_blank"><img src="images/neckless.jpg" alt="Jewelry 1"></a>
+                <p>Elegant Necklace</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/silverbb.jpg" alt="Jewelry 2"></a>
+                <p>Silver Bangle & Bracelet</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/American-Diamond-Earrings-White-Stone.jpg" alt="Jewelry 3"></a>
+                <p>Diamond Earrings</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/ring1.jpg" alt="Jewelry 2"></a>
+                <p>Diamond Rings</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/bangle.webp" alt="Jewelry 2"></a>
+                <p>Gold Bangles & Bracelet</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/bridalset.webp" alt="Jewelry 2"></a>
+                <p>Bridal jewellery Set</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/anklet.webp" alt="Jewelry 2"></a>
+                <p>Anklets</p>
+            </div>
+            <div class="gallery-item">
+                <a href=""><img src="images/traditionalset.jpg" alt="Jewelry 2"></a>
+                <p>Traditional Jewellery</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 JewelryStore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
